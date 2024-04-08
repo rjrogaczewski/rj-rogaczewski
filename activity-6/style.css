@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.messageArray {
+    margin-bottom: 20px;
+}
+
+.outbound-message {
+    padding: 5px;
+    background-color: beige;
+}
+
+.inbound-message {
+    padding: 5px;
+    background-color: olive;
+}
