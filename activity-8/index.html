@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Program in English -->
+<html lang="en" dir = "ltr">
+    <!-- Main header -->
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>The Sports Blog</title>
+        <link rel = "stylesheet" type = "text/css" href = "https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="headerTitle">The Sports Blog</h1>
+            <div class="headerMenu">
+                <button class="button1">Post</button>
+            </div>
+        </header>
+        <main>
+            <section class="displayBlog"></section>
+        </main>
+        <footer>Sports Blog 2024</footer>
+        <div class="model" id="dialog">
+            <section>
+                <h2>Topic</h2>
+                <input type="text" id="editTopic">
+                <span id="editTitleMessage"></span>
+            </section>
+            <section>
+                <h2>Contents</h2>
+                <textarea name="text" id="editContent" cols="80" rows="10"></textarea>
+                <span id="editContentMessage"></span>
+            </section>
+            <footer>
+                <button id="cancelButton">Cancel</button>
+                <button id="saveButton">Save</button>
+            </footer>
+        </div>
+        <div id="modelPic"></div>
+        <script src = "scripts.js" charset = "UTF-8"></script>
+        
+    </body>
+</html>
